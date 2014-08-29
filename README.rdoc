@@ -30,4 +30,5 @@ Please feel free to use a different markup language if you do not plan to run
 
 Ultima modificação:
 
-Apostila Caelum: Exercício 6.16
+Referência: Material do Treinamento Desenvolvimento Ágil para Web 2.0 com Ruby on Rails
+Capítulo: 6
