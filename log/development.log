@@ -8,3 +8,80 @@ Migrating to CreateEventos (20140829194326)
   [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20140829194326"]]
   [1m[35m (184.7ms)[0m  commit transaction
   [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-29 16:51:36 -0300
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/railties-4.1.4/lib/rails/templates/rails/welcome/index.html.erb (1.6ms)
+Completed 200 OK in 14ms (Views: 5.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/eventos" for 127.0.0.1 at 2014-08-29 16:52:19 -0300
+Processing by EventosController#index as HTML
+  [1m[35mEvento Load (0.1ms)[0m  SELECT "eventos".* FROM "eventos"
+  Rendered eventos/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 507ms (Views: 504.6ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/eventos.css?body=1" for 127.0.0.1 at 2014-08-29 16:52:20 -0300
+
+
+Started GET "/assets/eventos.js?body=1" for 127.0.0.1 at 2014-08-29 16:52:20 -0300
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-08-29 16:52:20 -0300
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-29 16:52:20 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-29 16:52:20 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-29 16:52:20 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-29 16:52:20 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-29 16:52:20 -0300
+
+
+Started GET "/eventos/new" for 127.0.0.1 at 2014-08-29 16:56:23 -0300
+Processing by EventosController#new as HTML
+  Rendered eventos/_form.html.erb (62.0ms)
+  Rendered eventos/new.html.erb within layouts/application (64.7ms)
+Completed 200 OK in 70ms (Views: 68.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/eventos/new" for 127.0.0.1 at 2014-08-29 16:56:56 -0300
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by EventosController#new as HTML
+  Rendered eventos/_form.html.erb (25.5ms)
+  Rendered eventos/new.html.erb within layouts/application (29.5ms)
+Completed 200 OK in 68ms (Views: 57.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-08-29 16:56:57 -0300
+
+
+Started GET "/assets/eventos.css?body=1" for 127.0.0.1 at 2014-08-29 16:56:57 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-29 16:56:57 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-29 16:56:57 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-29 16:56:57 -0300
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-29 16:56:57 -0300
+
+
+Started GET "/assets/eventos.js?body=1" for 127.0.0.1 at 2014-08-29 16:56:57 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-29 16:56:57 -0300
