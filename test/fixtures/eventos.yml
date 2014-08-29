@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  nome: MyString
+  loca: MyString
+  inicio: 2014-08-29 16:43:26
+  termino: 2014-08-29 16:43:26
+
+two:
+  nome: MyString
+  loca: MyString
+  inicio: 2014-08-29 16:43:26
+  termino: 2014-08-29 16:43:26
